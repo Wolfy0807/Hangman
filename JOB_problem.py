@@ -48,7 +48,6 @@ print(m) #--comment out later
 l = [i for i in m]
 l_copy = l.copy()
 
-man=["head","body","r_arm","l_arm","r_leg","l_leg"]
 count = 0
 
 alpha=[i for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
@@ -159,5 +158,6 @@ while run:
 
 
     
+
 
 
