@@ -44,7 +44,7 @@ font = pygame.font.SysFont(None, 36)
 movies = ["AVATAR","GLADIATOR","INCEPTION","TITANIC","UNCHARTED","INTERSTELLAR","OPPENHEIMER","SHREK","ANNABELLE","GOODFELLAS",
           "GODFATHER","MULAN","CINDERELLA","PINOCCHIO","PREDATOR","DEADPOOL","GRAVITY","MOONFALL","SPIDERMAN","MATILDA"]
 m = movies[random.randint(0,len(movies)-1)]
-print(m) #--comment out later
+# print(m) 
 l = [i for i in m]
 l_copy = l.copy()
 
@@ -158,5 +158,6 @@ while run:
 
 
     
+
 
 
